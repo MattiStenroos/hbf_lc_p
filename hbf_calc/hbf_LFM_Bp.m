@@ -1,8 +1,8 @@
 %  HBF_LFM_BP builds lead field matrix for primary magnetic field. 
 %  conductor
 % 
-%  LFM=HBF_LFM_BP(coils,TB,spos,sdir)
-%  LFM=HBF_LFM_BP(coils,TB,spos)
+%  LFM=HBF_LFM_BP(coils,spos,sdir)
+%  LFM=HBF_LFM_BP(coils,spos)
 % 
 %    coils:  coil description, hbf struct
 %    spos:   source positions, [M x 3]
@@ -27,5 +27,5 @@
 %  where the latter term shows the contribution of volume currents driven by
 % the electric field.
 % 
-%  v201020 (c) Matti Stenroos
+%  v201022 (c) Matti Stenroos
 %
